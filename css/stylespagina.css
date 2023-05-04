@@ -26,6 +26,7 @@ h4 {font-family: 'Courier New', Courier, monospace;color: aliceblue;}
 main section {background-color: #0f1660;}
 
 section#information .naam               {  background-color: #8c8c8c;height: 20%; width: 100%; font-size: 50px;padding:50px;font-family: 'Courier New', Courier, monospace; display: flex;justify-content: center; align-items: center;}
+section#information .naam2               {  background-color: #37586b;height: 10%; width: 100%; font-size: 40px;padding:50px;font-family: 'Courier New', Courier, monospace; display: flex;justify-content: center; align-items: center;}
 section#watkanik                        {display: flex;}
 section#watkanik .wiebenik              {  background-color: #185264;height: 30%; width: 50%; font-size: 25px;padding:50px;font-family: 'Courier New', Courier, monospace;}
 section#watkanik .vaardigheid           {  background-color: #748c93;height: 30%; width: 50%; font-size: 25px;padding:50px;font-family: 'Courier New', Courier, monospace;}
@@ -36,15 +37,23 @@ section#zoningout                       {display: flex;}
 section#zoningout  .zoningouttekst      {  background-color: #ff0101;height: 700px; width: 50%; font-size: 25px;padding:50px;font-family: 'Courier New', Courier, monospace;}
 section#zoningout  .zoningoutimage      {  background-color: #ff0101;height: 700px; width: 50%; font-size: 25px;padding:0px;font-family: 'Courier New', Courier, monospace;}
 
-section#images                          { display: flex;width:100%; background-color: rgb(85, 16, 139);  }
+section#images                          { display: flex;width:100%; background-color: #55108b;padding: 0px; margin:0px  }
 
-section#images .grid                    {flex-wrap: wrap-reverse;width: 50%; height: 700px;padding: 0; margin:0; }
-section#images .grid img                {height: 350px; width: 49%;}
-
-
+section#images .grid                    {flex-wrap: wrap-reverse;width:50%; height: 700px;;}
+section#images .grid img                {height: 350px;width:49%;} 
 
 
-section#information5                                {  background-color: #95ae32;height: 900px; width: 50%; font-size: 25px;padding:50px;}
+
+
+section#information5                     {  background-color: #95ae32;height: 900px; width: 50%; font-size: 25px;padding:50px;}
+
+section#end                        {display: flex;}
+section#end .wiebenik              {  background-color: #185264;height: 30%; width: 50%; font-size: 25px;padding:50px;font-family: 'Courier New', Courier, monospace;}
+section#end .tekstend         {  background-color: #748c93;height: 30%; width: 50%; font-size: 25px;padding:50px;font-family: 'Courier New', Courier, monospace;}
+
+section#love                        {display: flex;}
+section#love .tekstlove         {  background-color: #748c93;height: 30%; width: 50%; font-size: 25px;padding:50px;font-family: 'Courier New', Courier, monospace;}
+
 
 
 
