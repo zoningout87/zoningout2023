@@ -3,21 +3,29 @@
 
 *                   { margin: 0;padding: 0;list-style: none;user-select: none;box-sizing: border-box;}
 
-body { display: grid;grid-template-columns: repeat(2, 1fr);grid-template-areas: 
+body { display: grid;grid-template-columns: repeat(1, 1fr);grid-template-areas: 
     "kop kop"
 "inhoud inhoud"
 "inhoud inhoud"
-"voetstuk voetstuk"; overflow: hidden;}
-
+"voetstuk voetstuk"; overflow: hidden; background-color: #4d555c; }
+a:link {color: rgb(255, 255, 255);text-decoration: none;}
+a:visited {color: white;text-decoration: none;}
+a:hover {color: rgb(4, 46, 85);text-decoration: none;}
+a:active {color: rgb(110, 213, 253);text-decoration: none;}
 header { grid-area: kop;height: 70px;justify-content: flex-start;}
 
-main {display: grid;grid-template-columns: repeat(2, 1fr);grid-area: inhoud;}
 
-main section {background-color: #b41616;aspect-ratio: 2;}
+
+main {display: grid;grid-template-columns: repeat(2, 4fr);grid-area: inhoud; }
+
+
+main section {background-color: #0f1660;aspect-ratio: 2; }
 
 
 section#about                        { display: flex; justify-content: center; align-items: center; background-color: #b2b2b2;}
 section#about .inhoudAbout           {color: rgb(237, 237, 237);font-family: 'Courier New', Courier, monospace; font-size: 40px;}
+section#about:hover                        { display: flex; justify-content: center; align-items: center; background-color: #3b6770;}
+
 section#frontend                     { display: flex; justify-content: center; align-items: center; background-color: #a6c1c0;}
 section#frontend .inhoudFrontend      {color: rgb(237, 237, 237);font-family: 'Courier New', Courier, monospace; font-size: 40px;}
 section#designs                      { display: flex; justify-content: center; align-items: center; background-color: #72a8b4;}
@@ -25,8 +33,9 @@ section#designs .inhoudDesigns        {color: rgb(237, 237, 237);font-family: 'C
 section#graphic                      { display: flex; justify-content: center; align-items: center; background-color: #737f80;}
 section#graphic .inhoudGraphic       {color: rgb(237, 237, 237);font-family: 'Courier New', Courier, monospace; font-size: 40px;}
 
+section#information                 { display: flex; justify-content: center;  background-color: #a6c1c0;}
 
 
 
 footer                      { grid-area: voetstuk; height: 70px; }
-header, footer              {    display: flex;justify-content: center;align-items: center; font-family: 'Courier New', Courier, monospace; background-color: rgb(76, 84, 91); color: #6fa4a6;}
+header, footer              {    display: flex;justify-content: center;align-items: center; font-family: 'Courier New', Courier, monospace; background-color: #4d555c; color: #6fa4a6;}
