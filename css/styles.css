@@ -1,0 +1,32 @@
+
+
+
+*                   { margin: 0;padding: 0;list-style: none;user-select: none;box-sizing: border-box;}
+
+body { display: grid;grid-template-columns: repeat(2, 1fr);grid-template-areas: 
+    "kop kop"
+"inhoud inhoud"
+"inhoud inhoud"
+"voetstuk voetstuk"; overflow: hidden;}
+
+header { grid-area: kop;height: 70px;justify-content: flex-start;}
+
+main {display: grid;grid-template-columns: repeat(2, 1fr);grid-area: inhoud;}
+
+main section {background-color: #b41616;aspect-ratio: 2;}
+
+
+section#about                        { display: flex; justify-content: center; align-items: center; background-color: #b2b2b2;}
+section#about .inhoudAbout           {color: rgb(237, 237, 237);font-family: 'Courier New', Courier, monospace; font-size: 40px;}
+section#frontend                     { display: flex; justify-content: center; align-items: center; background-color: #a6c1c0;}
+section#frontend .inhoudFrontend      {color: rgb(237, 237, 237);font-family: 'Courier New', Courier, monospace; font-size: 40px;}
+section#designs                      { display: flex; justify-content: center; align-items: center; background-color: #72a8b4;}
+section#designs .inhoudDesigns        {color: rgb(237, 237, 237);font-family: 'Courier New', Courier, monospace; font-size: 40px;}
+section#graphic                      { display: flex; justify-content: center; align-items: center; background-color: #737f80;}
+section#graphic .inhoudGraphic       {color: rgb(237, 237, 237);font-family: 'Courier New', Courier, monospace; font-size: 40px;}
+
+
+
+
+footer                      { grid-area: voetstuk; height: 70px; }
+header, footer              {    display: flex;justify-content: center;align-items: center; font-family: 'Courier New', Courier, monospace; background-color: rgb(76, 84, 91); color: #6fa4a6;}
