@@ -28,10 +28,13 @@ section#about:hover                        { display: flex; justify-content: cen
 
 section#frontend                     { display: flex; justify-content: center; align-items: center; background-color: #a6c1c0;}
 section#frontend .inhoudFrontend      {color: rgb(237, 237, 237);font-family: 'Courier New', Courier, monospace; font-size: 40px;}
+section#frontend:hover                        { display: flex; justify-content: center; align-items: center; background-color: #3b6770;}
 section#designs                      { display: flex; justify-content: center; align-items: center; background-color: #72a8b4;}
 section#designs .inhoudDesigns        {color: rgb(237, 237, 237);font-family: 'Courier New', Courier, monospace; font-size: 40px;}
-section#graphic                      { display: flex; justify-content: center; align-items: center; background-color: #737f80;}
-section#graphic .inhoudGraphic       {color: rgb(237, 237, 237);font-family: 'Courier New', Courier, monospace; font-size: 40px;}
+section#designs:hover                        { display: flex; justify-content: center; align-items: center; background-color: #3b6770;}
+section#project                      { display: flex; justify-content: center; align-items: center; background-color: #737f80;}
+section#project .inhoudProject       {color: rgb(237, 237, 237);font-family: 'Courier New', Courier, monospace; font-size: 40px;}
+section#project:hover                        { display: flex; justify-content: center; align-items: center; background-color: #3b6770;}
 
 section#information                 { display: flex; justify-content: center;  background-color: #a6c1c0;}
 
