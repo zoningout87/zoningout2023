@@ -21,21 +21,23 @@ nav a:nth-child(5):hover~.animation {width: 120px;left: 470px;}
 
 
 h2 {font-family: 'Courier New', Courier, monospace;color: aliceblue;}
+h3 {font-family: 'Courier New', Courier, monospace;color: aliceblue;}
 h4 {font-family: 'Courier New', Courier, monospace;color: aliceblue;}
+p {font-family: 'Courier New', Courier, monospace;color: aliceblue;}
 
 main section {background-color: #0f1660;}
 
 section#information .naam               {  background-color: #8c8c8c;height: 20%; width: 100%; font-size: 50px;padding:50px;font-family: 'Courier New', Courier, monospace; display: flex;justify-content: center; align-items: center;}
 section#information .naam2               {  background-color: #37586b;height: 10%; width: 100%; font-size: 40px;padding:50px;font-family: 'Courier New', Courier, monospace; display: flex;justify-content: center; align-items: center;}
 section#watkanik                        {display: flex;}
-section#watkanik .wiebenik              {  background-color: #185264;height: 30%; width: 50%; font-size: 25px;padding:50px;font-family: 'Courier New', Courier, monospace; color: white;}
-section#watkanik .vaardigheid           {  background-color: #748c93;height: 30%; width: 50%; font-size: 25px;padding:50px;font-family: 'Courier New', Courier, monospace;}
+section#watkanik .wiebenik              {  background-color: #185264; width: 60%; font-size: 25px;padding:50px;font-family: 'Courier New', Courier, monospace; color: white;}
+section#watkanik .vaardigheid           {  background-color: #748c93; width: 40%; font-size: 25px;padding:50px;font-family: 'Courier New', Courier, monospace;}
 
 
 .geschiedenis                           {  background-color: #8bbfcf;height: 30%; width: 100%; font-size: 25px;padding:50px;font-family: 'Courier New', Courier, monospace;}
-section#zoningout                       {display: flex;}
-section#zoningout  .zoningouttekst      {  background-color: #3c4a74;height: 710px; width: 50%; font-size: 25px;padding:50px;font-family: 'Courier New', Courier, monospace;color: white;}
-section#zoningout  .zoningoutimage      {  background-color: #0b092b;height: 700px;  font-family: 'Courier New', Courier, monospace;display: flex;justify-content: center; align-items: center;}
+section#zoningout                       {display: flex; flex-direction: row-reverse;}
+section#zoningout  .zoningouttekst      {  background-color: #3c4a74; font-size: 25px;padding:50px;font-family: 'Courier New', Courier, monospace;color: white;}
+section#zoningout  .zoningoutimage      {  background-color: #0b092b;height: 30%;  font-family: 'Courier New', Courier, monospace;}
 
 
 
@@ -45,12 +47,12 @@ section#zoningout  .zoningoutimage      {  background-color: #0b092b;height: 700
 
 
 section#end                        {display: flex;}
-section#end .tekstend             {   background-color: #3c4a74;height: 600px; width: 50%; font-size: 25px;padding:50px;font-family: 'Courier New', Courier, monospace;color: white;}
-section#end .zoningoutimage         {  background-color: #0b092b;height: 600px; width: 50%;  }
+section#end .tekstend             {   background-color: #3c4a74; font-size: 25px;width: 25%; padding:50px;font-family: 'Courier New', Courier, monospace;color: white;}
+section#end .zoningoutimage         {  background-color: #0b092b; width: 50%;  }
 
 section#love                        {display: flex;flex-direction:row-reverse;}
-section#love .tekstlove            {   background-color: #99a6b7;height: 600px; width: 50%; font-size: 25px;padding:50px;font-family: 'Courier New', Courier, monospace;color: white;}
-section#love .zoningoutimage         {  background-color: #0b092b;height: 600px; width: 50%; }
+section#love .tekstlove            {   background-color: #99a6b7; font-size: 25px;padding:50px; width: 25%;font-family: 'Courier New', Courier, monospace;color: white;}
+section#love .zoningoutimage         {  background-color: #0b092b; width: 50%; }
 
 
 
