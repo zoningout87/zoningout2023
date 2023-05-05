@@ -35,7 +35,7 @@ section#watkanik .vaardigheid           {  background-color: #748c93;height: 30%
 .geschiedenis                           {  background-color: #8bbfcf;height: 30%; width: 100%; font-size: 25px;padding:50px;font-family: 'Courier New', Courier, monospace;}
 section#zoningout                       {display: flex;}
 section#zoningout  .zoningouttekst      {  background-color: #3c4a74;height: 710px; width: 50%; font-size: 25px;padding:50px;font-family: 'Courier New', Courier, monospace;color: white;}
-section#zoningout  .zoningoutimage      {  background-color: #ff0101;height: 710px; width: 50%; font-size: 25px;padding:0px;font-family: 'Courier New', Courier, monospace;}
+section#zoningout  .zoningoutimage      {  background-color: #0b092b;height: 710px; width: 50%; font-size: 25px;padding:0px;font-family: 'Courier New', Courier, monospace;display: flex;justify-content: center; align-items: center;}
 
 section#images                          { display: flex;width:100%; background-color: #55108b;padding: 0px; margin:0px  }
 
